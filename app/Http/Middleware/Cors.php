@@ -15,7 +15,7 @@ class Cors
      */
     public function handle($request, Closure $next)
     {
-        header('Access-Control-Allow-Origin:  http://localhost:3000');
+        header('Access-Control-Allow-Origin:  https://turnoverbnb.herokuapp.com/');
         header('Access-Control-Allow-Headers:  Content-Type, X-Auth-Token,  Origin');
         header('Access-Control-Allow-Methods:  POST, PUT, DELETE, OPTIONS ');
 
